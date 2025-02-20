@@ -1,16 +1,28 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <h2>Person and Employee Creator</h2>
 
+    <label for="name">Name:</label>
+    <input type="text" id="name" placeholder="Enter name">
+
+    <label for="age">Age:</label>
+    <input type="number" id="age" placeholder="Enter age">
+
+    <label for="jobTitle">Job Title (Only for Employee):</label>
+    <input type="text" id="jobTitle" placeholder="Enter job title">
+
+    <button id="createPerson">Create Person</button>
+    <button id="createEmployee">Create Employee</button>
+
+    <div id="output"></div>
+
+    <script type="text/javascript" src="./script.js"></script>
 </body>
 
 </html>
